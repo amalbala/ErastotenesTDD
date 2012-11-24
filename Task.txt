@@ -1,0 +1,23 @@
+
+El agoritmo de la criba es el siguiente:
+
+1. Se crea una lista con los número del 2 al n ordenada.
+	- El numero inicial ha de ser el 2
+	- el numero final n ha de ser mayor que 2
+	- el numero final ha de ser entero
+	- Inicialmente la lista esta compuesta por todos los número del 2 a n ordenados.
+
+2. Se elige el siguiente número x no marcado (inicialmente 2);
+	- Si el numero estudiado es el 2 no se podran estudiar ningún par.
+
+3. Se marcan todos los mútiplos de dicho número
+	- hay que marcar los multiplos de X
+	- el propio número X es primo.
+	- Si el numero marcado es 2 hay que marcar los pares.
+	- Si el número marcado es el 3 hay que marcar los multiplos de 3.
+	- No se pueden marcar los número primos porque no son multiplos de ningún numero: 5,7, 9, 11, 13, 17 no pueden estar marcados.
+	- Los números marcados no se utilizan en ningúna operación así que se pueden borrar de forma definitiva de la lista.
+
+4. Se repite el paso hasta que todos los números hayan sido estudiados.
+
+Para una lista del 2 al 30 el resultado ha de ser (2, 3, 5, 7, 11, 13, 17, 19, 23, 29)
